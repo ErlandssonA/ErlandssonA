@@ -37,68 +37,58 @@
 
 <p align="center">
   &emsp; 
-  <a href="https://www.javascript.com" target="_blank"> 
-    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%232370ED.svg?style=for-the-badge&logo=javascript&logoColor=black&color=F7DF1E">
-  </a>
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%232370ED.svg?style=for-the-badge&logo=javascript&logoColor=black&color=F7DF1E">
   &emsp;
-   <a href="https://html.com" target="_blank">
-    <img alt="HTML" src="https://img.shields.io/badge/HTML%20-%2314354C.svg?style=for-the-badge&logo=HTML5&logoColor=white&color=E34F26">
-  </a>
+   <img alt="HTML" src="https://img.shields.io/badge/HTML%20-%2314354C.svg?style=for-the-badge&logo=HTML5&logoColor=white&color=E34F26">
   &emsp;
-   <a href="https://www.python.org" target="_blank">
-    <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%2314354C.svg?style=for-the-badge&logo=CSS3&logoColor=white&color=1572B6">
-  </a>
-  <!-- &emsp;
-   <a href="https://www.python.org" target="_blank">
-    <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white&color=3776AB">
-  </a> -->
+   <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%2314354C.svg?style=for-the-badge&logo=CSS3&logoColor=white&color=1572B6">
 </p>
 
 <h1 align="center">Softwares & Tools</h1>
 
 <p align="center">
   &emsp;
-    <a href="#"><img alt="DiscordJS" src="https://img.shields.io/badge/Discord.JS%20-%23F05033.svg?style=for-the-badge&logo=discord&logoColor=white&color=5865F2"></a>
+    <img alt="DiscordJS" src="https://img.shields.io/badge/Discord.JS%20-%23F05033.svg?style=for-the-badge&logo=discord&logoColor=white&color=5865F2">
   &emsp;
-    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white&color=F05032"></a>
+    <img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white&color=F05032">
   &emsp;
-    <a href="#"><img alt="GitHub" src="https://img.shields.io/badge/github-%23181717.svg?style=for-the-badge&logo=github&logoColor=white&color=181717"></a>
+    <img alt="GitHub" src="https://img.shields.io/badge/github-%23181717.svg?style=for-the-badge&logo=github&logoColor=white&color=181717">
   &emsp;
-    <a href="#"><img alt="Google Sheets" src="https://img.shields.io/badge/Google%20Sheets%20-%2334A853.svg?style=for-the-badge&logo=google%20sheets&logoColor=white&color=34A853"></a>
+    <img alt="Google Sheets" src="https://img.shields.io/badge/Google%20Sheets%20-%2334A853.svg?style=for-the-badge&logo=google%20sheets&logoColor=white&color=34A853">
   &emsp;
-    <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white&color=F58025"></a>
+    <img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white&color=F58025">
   &emsp;
-    <a href="#"><img alt="Sublime Text" src="https://img.shields.io/badge/Sublime%20Text-FE7A16?style=for-the-badge&logo=sublime-text&logoColor=white&color=FF9800"></a>
+    <img alt="Sublime Text" src="https://img.shields.io/badge/Sublime%20Text-FE7A16?style=for-the-badge&logo=sublime-text&logoColor=white&color=FF9800">
   &emsp;
-    <a href="#"><img alt="JSON" src="https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=white&color=000000"></a>
+    <img alt="JSON" src="https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=white&color=000000">
   &emsp;
-    <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/mysql-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white&color=4479A1"/></a>
+    <img alt="MySQL" src="https://img.shields.io/badge/mysql-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white&color=4479A1"/>
 </p>
 
 <h1 align="center">IDEs</h1>
 
 <p align="center">
   &emsp;
-    <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=007ACC"></a>
+    <img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white&color=007ACC">
   &emsp;
-    <a href="#"><img alt="JetBrain" src="https://img.shields.io/badge/jetbrains-%23000000.svg?style=for-the-badge&logo=jetbrains&logoColor=white&color=000000" /></a>
+    <img alt="JetBrain" src="https://img.shields.io/badge/jetbrains-%23000000.svg?style=for-the-badge&logo=jetbrains&logoColor=white&color=000000" />
   &emsp;
-    <a href="#"><img alt="Atom" src="https://img.shields.io/badge/atom-%2366595C.svg?&style=for-the-badge&logo=atom&logoColor=white&color=66595C" /></a>
+    <img alt="Atom" src="https://img.shields.io/badge/atom-%2366595C.svg?&style=for-the-badge&logo=atom&logoColor=white&color=66595C" />
   &emsp;
-    <a href="#"><img alt="Eclipse IDE" src="https://img.shields.io/badge/eclipse%20ide-%232C2255.svg?&style=for-the-badge&logo=eclipse%20ide&logoColor=white&color=2C2255" /></a>
+    <img alt="Eclipse IDE" src="https://img.shields.io/badge/eclipse%20ide-%232C2255.svg?&style=for-the-badge&logo=eclipse%20ide&logoColor=white&color=2C2255" />
 </p>
 
 <h1 align="center">Operating Systems</h1>
 
 <p align="center">
   &emsp;
-    <a href="#"><img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white&color=0078D6"></a>
+    <img alt="Windows" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white&color=0078D6">
   &emsp;
-    <a href="#"><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&color=FCC624"></a>
+    <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&color=FCC624">
   &emsp;
-    <a href="#"><img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white&color=E95420"></a>
+    <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white&color=E95420">
   &emsp;
-    <a href="#"><img alt="MacOS" src="https://img.shields.io/badge/MacOS-%2335BF5C.svg?&style=for-the-badge&logo=apple&logoColor=white&color=000000" /></a>
+    <img alt="MacOS" src="https://img.shields.io/badge/MacOS-%2335BF5C.svg?&style=for-the-badge&logo=apple&logoColor=white&color=000000" />
 </p>
 
 <br>
