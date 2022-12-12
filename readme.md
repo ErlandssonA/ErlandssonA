@@ -1,7 +1,5 @@
 <h1 align="center">Hello, I'm Anton <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"></h1>
 
-<br>
-
 ## <picture><img src="https://github.com/ErlandssonA/ErlandssonA/blob/master/Images/about_me.gif?raw=true" width="50px"></picture> About Me
 
 <br>
@@ -28,7 +26,6 @@
 	<a href="https://discordapp.com/users/269573362127339520/"><img src="https://img.shields.io/badge/Discord-%23EA4335.svg?style=for-the-badge&logo=discord&logoColor=white&color=blue" alt="Discord"/></a>
 </p>
 
-<br>
 <br>
 
 <h1 align="center">Languages</h1>
@@ -98,8 +95,6 @@
 <p align = "center">
 	<a href="https://github.com/piyushsuthar/github-readme-quotes"> <img alt = "Quote" src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight">
 </p>
-
-<h2>Github Stats</h2>
 
 <h3>🔥 Streak Stats</h3>
 
