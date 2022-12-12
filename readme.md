@@ -31,8 +31,6 @@
 <br>
 <br>
 
-<h2>My Skills</h2>
-
 <h1 align="center">Languages</h1>
 
 <p align="center">
