@@ -11,7 +11,7 @@
 <br>
 
 - My name is `Anton`, and I am `17` years old.
-- I am studying an `Automotive Mechanic` subject in `Sweden`.
+- I am studying a `Automotive Mechanic` subject in `Sweden`.
 - I started programming seriously in `July 2022`.
 - I have learned everything I know about programming `myself` with the help of `Forums, Guides, YouTube etc`.
 - Always `learning new things`.
