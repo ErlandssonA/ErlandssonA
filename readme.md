@@ -43,7 +43,7 @@
 
 <p align="center">
   &emsp;
-    <img alt="DiscordJS" src="https://img.shields.io/badge/Discord.JS%20-%23F05033.svg?style=for-the-badge&logo=discord&logoColor=white&color=5865F2">
+    <img alt="NodeJS" src="https://img.shields.io/badge/Node.JS%20-%23F05033.svg?style=for-the-badge&logo=node.js&logoColor=white&color=339933">
   &emsp;
     <img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white&color=F05032">
   &emsp;
