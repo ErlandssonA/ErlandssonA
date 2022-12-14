@@ -33,10 +33,10 @@
 <p align="center">
   &emsp; 
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%232370ED.svg?style=for-the-badge&logo=javascript&logoColor=black&color=F7DF1E">
-  &emsp;
+<!--   &emsp;
    <img alt="HTML" src="https://img.shields.io/badge/HTML%20-%2314354C.svg?style=for-the-badge&logo=HTML5&logoColor=white&color=E34F26">
   &emsp;
-   <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%2314354C.svg?style=for-the-badge&logo=CSS3&logoColor=white&color=1572B6">
+   <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%2314354C.svg?style=for-the-badge&logo=CSS3&logoColor=white&color=1572B6"> -->
 </p>
 
 <h1 align="center">Softwares & Tools</h1>
