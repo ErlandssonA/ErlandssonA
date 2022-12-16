@@ -11,7 +11,7 @@
 <br>
 
 - My name is `Anton`, and I am `17` years old.
-- I am studying a `Automotive Mechanic` subject in `Sweden`.
+- I am studying a `Automotive` subject in `Sweden`.
 - I started programming seriously in `July 2022`.
 - I have learned everything I know about programming `myself` with the help of `Forums, Guides, YouTube etc`.
 - Always `learning new things`.
@@ -33,17 +33,17 @@
 <p align="center">
   &emsp; 
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%232370ED.svg?style=for-the-badge&logo=javascript&logoColor=black&color=F7DF1E">
-  &emsp;
+<!--   &emsp;
    <img alt="HTML" src="https://img.shields.io/badge/HTML%20-%2314354C.svg?style=for-the-badge&logo=HTML5&logoColor=white&color=E34F26">
   &emsp;
-   <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%2314354C.svg?style=for-the-badge&logo=CSS3&logoColor=white&color=1572B6">
+   <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%2314354C.svg?style=for-the-badge&logo=CSS3&logoColor=white&color=1572B6"> -->
 </p>
 
 <h1 align="center">Softwares & Tools</h1>
 
 <p align="center">
   &emsp;
-    <img alt="DiscordJS" src="https://img.shields.io/badge/Discord.JS%20-%23F05033.svg?style=for-the-badge&logo=discord&logoColor=white&color=5865F2">
+    <img alt="NodeJS" src="https://img.shields.io/badge/Node.JS%20-%23F05033.svg?style=for-the-badge&logo=node.js&logoColor=white&color=339933">
   &emsp;
     <img alt="Git" src="https://img.shields.io/badge/Git%20-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white&color=F05032">
   &emsp;
