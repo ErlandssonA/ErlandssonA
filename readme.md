@@ -93,7 +93,7 @@
 <br>
 
 <p align = "center">
-	<a href="https://github.com/piyushsuthar/github-readme-quotes"> <img alt = "Quote" src="https://quotes-github-readme.vercel.app/api?type=vertical&theme=tokyonight">
+	<a href="https://wakatime.com/@Erlandsson"> <img alt = "Wakatime" src="https://github-readme-stats.vercel.app/api/wakatime?username=Erlandsson&amp;border_radius=5px&amp;theme=tokyonight&amp;show_icons=true&amp;langs_count=6&amp;disable_animations=false&amp;custom_title=Weekly%20Stats">
 </p>
 
 <h3>🔥 Streak Stats</h3>
