@@ -88,9 +88,16 @@
 
 <br>
 
+<h3>⚡ Recent GitHub Activity</h3>
+
 ---
 
+<a href="https://github.com/ErlandssonA"><img alt="Erlandsson's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=ErlandssonA&custom_title=Erlandsson's%20Contribution%20Graph&theme=tokyo-night&area=true" /></a>
 <br>
+
+<h3>💻 Weekly Stats</h3>
+
+---
 
 <p align = "center">
 	<a href="https://wakatime.com/@Erlandsson"> <img alt = "Wakatime" src="https://github-readme-stats.vercel.app/api/wakatime?username=Erlandsson&amp;border_radius=5px&amp;theme=tokyonight&amp;show_icons=true&amp;langs_count=6&amp;disable_animations=false&amp;custom_title=Weekly%20Stats">
@@ -109,17 +116,8 @@
 <p align="center">
     <a href="https://github.com/anuraghazra/github-readme-stats">
 	    <img alt="Erlandsson's Github Stats" src="https://github-readme-stats.vercel.app/api?username=ErlandssonA&show_icons=true&count_private=true&locale=en&theme=tokyonight&layout=compact" height="230px"/></a>
-	  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=ErlandssonA&langs_count=7&show_icons=true&locale=en&theme=tokyonight" alt="ErlandssonA" height="230px"/>
-<br/>
+<br>
 
 <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
 
   </p>
-
-<h3>⚡ Recent GitHub Activity</h3>
-
----
-
-<a href="https://github.com/ErlandssonA"><img alt="Erlandsson's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=ErlandssonA&custom_title=Erlandsson's%20Contribution%20Graph&theme=tokyo-night&area=true" /></a>
-
-<br>
