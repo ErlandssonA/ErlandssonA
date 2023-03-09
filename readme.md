@@ -1,5 +1,5 @@
 <h1 align="center">Hello, I'm Erlandsson <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"></h1>
-
+<!--
 ## <picture><img src="https://github.com/ErlandssonA/ErlandssonA/blob/master/Images/about_me.gif?raw=true" width="50px"></picture> About Me
 
 <br>
@@ -15,7 +15,7 @@
 - I started programming seriously in `July 2022`.
 - I have learned everything I know about programming `myself` with the help of `Forums, Guides, YouTube etc`.
 - Always `learning new things`.
-
+-->
 <br>
 <br>
 
