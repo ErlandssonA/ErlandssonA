@@ -13,7 +13,7 @@
 
 ---
 
-<a href="https://github.com/ErlandssonA"><img alt="Erlandsson's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph?username=ErlandssonA&custom_title=Erlandsson's%20Contribution%20Graph&theme=tokyo-night&area=true" /></a>
+<a href="https://github.com/ErlandssonA"><img alt="Erlandsson's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ErlandssonA&custom_title=Erlandsson's%20Contribution%20Graph&theme=tokyo-night&area=true" /></a>
 <br>
 
 <h3>💻 Weekly Stats</h3>
