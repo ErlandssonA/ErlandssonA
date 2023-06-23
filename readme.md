@@ -13,7 +13,7 @@
 
 ---
 
-<a href="https://github.com/ErlandssonA"><img alt="Erlandsson's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ErlandssonA&custom_title=Erlandsson's%20Contribution%20Graph&theme=tokyo-night&area=true" /></a>
+<p align="center"><a href="https://github.com/ErlandssonA"><img alt="Erlandsson's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ErlandssonA&custom_title=Erlandsson's%20Contribution%20Graph&theme=tokyo-night&area=true" /></a></p>
 <br>
 
 <h3>💻 Weekly Stats</h3>
@@ -28,6 +28,4 @@
 
 ---
 
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=ErlandssonA&theme=tokyonight_duo" alt="ErlandssonA" /></p>
-
-
+<p align="center"><a href="https://github.com/ErlandssonA"><img src="https://github-readme-streak-stats.herokuapp.com/?user=ErlandssonA&theme=tokyonight_duo" alt="ErlandssonA" /></a></p>
