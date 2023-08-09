@@ -28,4 +28,4 @@
 
 ---
 
-<p align="center"><a href="https://github.com/ErlandssonA"><img src="https://github-readme-streak-stats.herokuapp.com?user=ErlandssonA&theme=tokyonight-duo&date_format=j%20M%5B%20Y%5D" alt="ErlandssonA" /></a></p>
+<p align="center"><a href="https://github.com/ErlandssonA"><img src="https://streak-stats.demolab.com?user=ErlandssonA&theme=tokyonight-duo&border_radius=5" alt="ErlandssonA" /></a></p>
