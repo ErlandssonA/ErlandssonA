@@ -21,7 +21,7 @@
 ---
 
 <p align = "center">
-	<a href="https://wakatime.com/@Erlandsson"> <img alt = "Wakatime" src="https://github-readme-stats.vercel.app/api/wakatime?username=Erlandsson&api_domain=time.erlandev.com&langs_count=8&layout=default&theme=tokyonight&custom_title=Weekly%20Coding%20Stats">
+	<a href="https://github.com/ErlandssonA"> <img alt = "Wakatime" src="https://github-readme-stats.vercel.app/api/wakatime?username=Erlandsson&api_domain=time.erlandev.com&langs_count=8&layout=default&theme=tokyonight&custom_title=Weekly%20Coding%20Stats">
 </p>
 
 <h3>🔥 Streak Stats</h3>
