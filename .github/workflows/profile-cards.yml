@@ -25,7 +25,7 @@ jobs:
         with:
           card: stats
           options: >-
-            username=${{ github.repository_owner }}&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR&bg_color=0D1117&title_color=FFFFFF&text_color=FFFFFF&icon_color=1F6FEB&ring_color=39D353
+            username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
           path: profile/stats.svg
           token: ${{ secrets.README_STATS_TOKEN }}
 

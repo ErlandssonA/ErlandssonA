@@ -26,5 +26,5 @@
 ### Weekly coding activity
 
 <div align="center">
-  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=Erlandsson&api_domain=time.erlandev.com&langs_count=6&layout=default&bg_color=0D1117&title_color=FFFFFF&text_color=FFFFFF&icon_color=1F6FEB&hide_border=true&custom_title=Weekly%20Coding%20Activity&cache_seconds=1800" alt="Weekly coding activity" />
+  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=Erlandsson&api_domain=time.erlandev.com&langs_count=6&layout=default&theme=github_dark&hide_border=true&custom_title=Weekly%20Coding%20Activity&cache_seconds=1800" alt="Weekly coding activity" />
 </div>
