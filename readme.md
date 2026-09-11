@@ -1,31 +1,30 @@
-<h1 align="center">Hello, I'm Erlandsson <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"></h1>
+<div align="center">
 
-<!-- <h2>Contact Me</h2>
+# Hi, I'm Erlandsson
 
-<p align="left">
-	<a href="mailto:antonpang05@gmail.com"><img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white&color=red" alt="Email"/></a>
-	<a href="https://discordapp.com/users/269573362127339520/"><img src="https://img.shields.io/badge/Discord-%23EA4335.svg?style=for-the-badge&logo=discord&logoColor=white&color=blue" alt="Discord"/></a>
-</p>
-
-<br> -->
-
-<h3>⚡ Recent GitHub Activity</h3>
-
----
-
-<p align="center"><a href="https://github.com/ErlandssonA"><img alt="Erlandsson's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ErlandssonA&custom_title=Erlandsson's%20Contribution%20Graph&theme=tokyo-night&area=true" /></a></p>
 <br>
 
-<h3>💻 Weekly Stats</h3>
+[![Website](https://img.shields.io/badge/Website-antonerlandsson.net-0D1117?style=for-the-badge&logo=safari&logoColor=white)](https://antonerlandsson.net)
+[![Email](https://img.shields.io/badge/Email-hello%40antonerlandsson.net-0D1117?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:hello@antonerlandsson.net)
+[![GitHub](https://img.shields.io/badge/GitHub-ErlandssonA-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ErlandssonA)
+[![Discord](https://img.shields.io/badge/Discord-erlandsson-0D1117?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/269573362127339520)
+
+</div>
 
 ---
 
-<p align = "center">
-	<a href="https://github.com/ErlandssonA"> <img alt = "Wakatime" src="https://github-readme-stats.vercel.app/api/wakatime?username=Erlandsson&api_domain=time.erlandev.com&langs_count=6&layout=default&theme=tokyonight&custom_title=Weekly%20Coding%20Stats">
-</p>
+### GitHub stats
 
-<h3>🔥 Streak Stats</h3>
+<div align="center">
+  <a href="https://github.com/ErlandssonA">
+    <img src="https://github-stats-extended.vercel.app/api?username=ErlandssonA&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" alt="ErlandssonA GitHub stats" />
+  </a>
+</div>
 
 ---
 
-<p align="center"><a href="https://github.com/ErlandssonA"><img src="https://streak-stats.demolab.com?user=ErlandssonA&theme=tokyonight&border_radius=5" /></a></p>
+### Weekly coding activity
+
+<div align="center">
+  <img src="https://github-stats-extended.vercel.app/api/wakatime?username=Erlandsson&api_domain=time.erlandev.com&langs_count=6&layout=default&theme=github_dark&hide_border=true&custom_title=Weekly%20Coding%20Activity&cache_seconds=1800" alt="Weekly coding activity" />
+</div>
