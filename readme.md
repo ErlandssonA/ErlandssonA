@@ -19,9 +19,13 @@
 ### GitHub stats
 
 <div>
-  <a href="https://github.com/ErlandssonA">
-    <img src="https://github-stats-extended.vercel.app/api?username=ErlandssonA&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" alt="ErlandssonA GitHub stats" />
-  </a>
+  <img src="./profile/stats.svg" alt="ErlandssonA GitHub stats" />
+</div>
+
+<br>
+
+<div>
+  <img src="./profile/streak.svg" alt="GitHub streak" />
 </div>
 
 ---
