@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="616" height="1047" viewBox="0 0 616 1047" font-family="ConsolasFix, Consolas, Menlo, 'DejaVu Sans Mono', monospace">
+<style>
+@font-face { font-family: 'ConsolasFix'; src: local('Consolas'); size-adjust: 109%; }
+text, tspan { white-space: pre; }
+.key, .title { fill: #bc4c00; } .title { font-weight: bold; }
+.value { fill: #0550ae; } .dots { fill: #8c959f; }
+</style>
+<rect x="0.5" y="0.5" width="615" height="1046" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<text fill="#24292f" font-size="8.21">
+<tspan x="138" y="26.6">                                     =-==-==--=</tspan>
+<tspan x="138" y="36.4">                                 ==++=-++=++=+++++</tspan>
+<tspan x="138" y="46.3">                              =---+++***++++++*+++++</tspan>
+<tspan x="138" y="56.1">                             ====+***####****#**+++==+</tspan>
+<tspan x="138" y="66.0">                           ==+*++#*+***########*****+==+</tspan>
+<tspan x="138" y="75.8">                          +=+****#+*#*****#########**+++++</tspan>
+<tspan x="138" y="85.7">                          ==++**##***********#**####****+=+</tspan>
+<tspan x="138" y="95.6">                          -+*++++**+**###%##*****########*=+</tspan>
+<tspan x="138" y="105.4">                          =+**+*+*****###%%@%%#%#########*==+</tspan>
+<tspan x="138" y="115.3">                          +*#*****#######%@%%%###########*+=+*</tspan>
+<tspan x="138" y="125.1">                          =*##***#####%%%%%%%####%%#%#%###*+=*</tspan>
+<tspan x="138" y="135.0">                          ++*******+++**###%%%#####%%%%###*++</tspan>
+<tspan x="138" y="144.8">                         ====***+*+==++***########%%%%##*+*</tspan>
+<tspan x="138" y="154.7">                        +=====++======++**##*###%%%%%%##+*</tspan>
+<tspan x="138" y="164.5">                        +=+++-==--=====+++++**##%%%%##**</tspan>
+<tspan x="138" y="174.4">                        +-+++-----====++++*++**#######**</tspan>
+<tspan x="138" y="184.3">                         +-=+=---===+++++*###****#####*</tspan>
+<tspan x="138" y="194.1">                          ++==---====++***###***#%%##*</tspan>
+<tspan x="138" y="204.0">                            ----======+**##**++*%%%#**</tspan>
+<tspan x="138" y="213.8">                            -:---====++++*++===*##***</tspan>
+<tspan x="138" y="223.7">                           ::----=====++***+==+*##**</tspan>
+<tspan x="138" y="233.5">                          ..:----====++**#*===++*#**</tspan>
+<tspan x="138" y="243.4">                         ....:-=====+++***+++++**#*</tspan>
+<tspan x="138" y="253.2">                       ##:.....:-=++++******#####</tspan>
+<tspan x="138" y="263.1">                     ###%%-.....::-=++**++*####%</tspan>
+<tspan x="138" y="272.9">                  *###%%%%@+.:::::::-+++++***++*#%#%</tspan>
+<tspan x="138" y="282.8">               ****###%%%%%@+..:-====********+++#%%%%%%##</tspan>
+<tspan x="138" y="292.7">          ******###%%@@%%%%%@+.-+++*++*++=+*++++%%%%%%%%%#####</tspan>
+<tspan x="138" y="302.5">      ******######%%%%%%%%%%%@=-+++++++++++++++=*@%%%%%%%%%%%%%%</tspan>
+<tspan x="138" y="312.4">    #####%%%###%%%%%@@%%%@@%%%@==+++===---==++=:-#@%%%%%%%%%@%%@%</tspan>
+<tspan x="138" y="322.2">   ##%%%%%%%%%%%%%%%%@@@%%@@@%@%+===----------:::=%%%%%%%%@@@@@@%</tspan>
+<tspan x="138" y="332.1">   ##%%%%%%%%%%%%%%%%%@@@%@@@@%@#-:--:::::::::::::+%%%%%%%@@@%%@%#</tspan>
+<tspan x="138" y="341.9">  ###%%%%%%@%%%%%%@%%%%@@@@@@@@%@+:::::::::.::.:::-*%%%%%%#+*++@@#</tspan>
+<tspan x="138" y="351.8">  ###%%%%%%%@%@%%@@@%%%%%@@@@@@%@%-::::::.......::-=%%%%%%%==-+@@%</tspan>
+<tspan x="138" y="361.6">  ###%%%%%%%%@%%%@@@%%@@@@@@@@@%%@#::::::........::-+%%%%%%+:-+@@@@</tspan>
+<tspan x="138" y="371.5">  ###%%%%@@@@@@%%@@@%@@@@@@@@@%@%%@+::::::........:-=#@%%%%*-=*@@@@</tspan>
+<tspan x="138" y="381.4"> ###%%%%%@@@@@@%%%@@@@@@@%%%@@@%%%%%-:::::.........-=*@%%%%%%@@@@@@</tspan>
+<tspan x="138" y="391.2"> ###%%%%%@@@@@@@%%%@@@@@%%%%@@@@%%%@#::::::........:=+#%%%%%@@@@@@@</tspan>
+<tspan x="138" y="401.1"> ###%%@@@@@@@@@@@%%@@@@@%%%%%@@@@%%%@+.::::.........:=#%%%%%%@@@@@@@</tspan>
+<tspan x="138" y="410.9"> ##%%%@@@@@@@@@@@%%@@@@@@%%%%%@@@@%%@#::::::.........-*%%%%%%@@@@@@@</tspan>
+<tspan x="138" y="420.8"> *%%%%%@@@@@@@@@@@%%@@@@%%%%%%%%@@@%%@*:::::........:=*%%%%%%@@@@@@@</tspan>
+<tspan x="138" y="430.6">*#%%%%%%%%%@@@@@@@%%%@@@%%%%%%%%%@@@%%%-::::.........+%@%%%%%@@@@@@@@</tspan>
+<tspan x="138" y="440.5">#%%%@@@@@@@@%%%@@@%%%@@@%%%%%%%%%%@@@%@*::...........=%@%%%%%@@@@@@@@</tspan>
+<tspan x="138" y="450.3">#%%%%%@@@@@@@@@@@@%%%%@@%%%%%%%%%%%@@@%%:............:#%%%%%%@@@@@@@@</tspan>
+<tspan x="138" y="460.2">%%%%%%%%%%%%%%%@@@@%%%%%%%%%%%%%%%%@@@@@*.:::::.......+#%%%%%@@@@@@@@</tspan>
+</text>
+<text fill="#24292f" font-size="16">
+<tspan x="20" y="500.278"><tspan class="title">anton@erlandsson</tspan> -------------------------------------------</tspan>
+<tspan x="20" y="520.278"><tspan class="dots">. </tspan><tspan class="key">OS</tspan>:<tspan class="dots"> .................... </tspan><tspan class="value">Ubuntu, Debian, Windows, Omarchy</tspan></tspan>
+<tspan x="20" y="540.278"><tspan class="dots">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dots"> ....................... </tspan><tspan class="value">8 years, 0 months, 8 days</tspan></tspan>
+<tspan x="20" y="560.278"><tspan class="dots">. </tspan><tspan class="key">Host</tspan>:<tspan class="dots"> ............................................ </tspan><tspan class="value">Sweden</tspan></tspan>
+<tspan x="20" y="580.278"><tspan class="dots">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="dots"> ........................ </tspan><tspan class="value">Full Stack Web Developer</tspan></tspan>
+<tspan x="20" y="600.278"><tspan class="dots">. </tspan><tspan class="key">IDE</tspan>:<tspan class="dots"> ............................ </tspan><tspan class="value">VSCode, Cursor, T3 Code</tspan></tspan>
+<tspan x="20" y="620.278"><tspan class="dots">.</tspan></tspan>
+<tspan x="20" y="640.278"><tspan class="dots">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="dots"> .... </tspan><tspan class="value">TypeScript, Java, C++, Python</tspan></tspan>
+<tspan x="20" y="660.278"><tspan class="dots">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="dots"> ................ </tspan><tspan class="value">HTML, CSS, SQL, YAML</tspan></tspan>
+<tspan x="20" y="680.278"><tspan class="dots">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="dots"> ........................ </tspan><tspan class="value">Swedish, English</tspan></tspan>
+<tspan x="20" y="700.278"><tspan class="dots">.</tspan></tspan>
+<tspan x="20" y="720.278"><tspan class="dots">. </tspan><tspan class="key">Focus</tspan>.<tspan class="key">Frontend</tspan>:<tspan class="dots"> ............. </tspan><tspan class="value">Next.js, Vite, Tailwind CSS</tspan></tspan>
+<tspan x="20" y="740.278"><tspan class="dots">. </tspan><tspan class="key">Focus</tspan>.<tspan class="key">Backend</tspan>:<tspan class="dots"> ............. </tspan><tspan class="value">Node.js, Express, PostgreSQL</tspan></tspan>
+<tspan x="20" y="760.278"><tspan class="dots">. </tspan><tspan class="key">Focus</tspan>.<tspan class="key">Infra</tspan>:<tspan class="dots"> .............. </tspan><tspan class="value">Docker, Proxmox, Nginx, CI/CD</tspan></tspan>
+<tspan x="20" y="780.278"><tspan class="dots">.</tspan></tspan>
+<tspan x="20" y="800.278">- Contact --------------------------------------------------</tspan>
+<tspan x="20" y="820.278"><tspan class="dots">. </tspan><tspan class="key">Email</tspan>:<tspan class="dots"> ........................ </tspan><tspan class="value">hello@antonerlandsson.net</tspan></tspan>
+<tspan x="20" y="840.278"><tspan class="dots">. </tspan><tspan class="key">Website</tspan>:<tspan class="dots"> ............................ </tspan><tspan class="value">antonerlandsson.net</tspan></tspan>
+<tspan x="20" y="860.278"><tspan class="dots">. </tspan><tspan class="key">Discord</tspan>:<tspan class="dots"> ..................................... </tspan><tspan class="value">erlandsson</tspan></tspan>
+<tspan x="20" y="880.278"><tspan class="dots">.</tspan></tspan>
+<tspan x="20" y="900.278">- GitHub Stats ---------------------------------------------</tspan>
+<tspan x="20" y="920.278"><tspan class="dots">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dots"> ................... </tspan><tspan class="value">60</tspan> | <tspan class="dots">. </tspan><tspan class="key">Contributed</tspan>:<tspan class="dots"> ...... </tspan><tspan class="value">64</tspan></tspan>
+<tspan x="20" y="940.278"><tspan class="dots">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dots"> .............. </tspan><tspan class="value">3,413</tspan> | <tspan class="dots">. </tspan><tspan class="key">PRs</tspan>:<tspan class="dots"> .............. </tspan><tspan class="value">84</tspan></tspan>
+<tspan x="20" y="960.278"><tspan class="dots">. </tspan><tspan class="key">Contributions</tspan>:<tspan class="dots"> ........ </tspan><tspan class="value">3,837</tspan> | <tspan class="dots">. </tspan><tspan class="key">Issues</tspan>:<tspan class="dots"> ........... </tspan><tspan class="value">74</tspan></tspan>
+<tspan x="20" y="980.278"><tspan class="dots">. </tspan><tspan class="key">Current</tspan>.<tspan class="key">Streak</tspan>:<tspan class="dots"> ................... </tspan><tspan class="value">31 days (Longest: 31)</tspan></tspan>
+<tspan x="20" y="1000.28"><tspan class="dots">.</tspan></tspan>
+<tspan x="20" y="1020.28"><tspan class="key">&gt; </tspan><tspan class="value">█<animate attributeName="opacity" values="1;0" dur="1.06s" calcMode="discrete" repeatCount="indefinite"/></tspan></tspan>
+</text>
+</svg>

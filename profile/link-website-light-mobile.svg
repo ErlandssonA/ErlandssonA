@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="50" viewBox="0 0 150 50" font-family="ConsolasFix, Consolas, Menlo, 'DejaVu Sans Mono', monospace">
+<defs><clipPath id="r"><rect x="2" y="2" width="146" height="46" rx="6"/></clipPath></defs>
+<rect x="2" y="2" width="146" height="46" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="2" y="45" width="146" height="3" fill="#bc4c00" clip-path="url(#r)"/>
+<svg x="27.5" y="12.5" width="22" height="22" viewBox="0 0 24 24"><g fill="none" stroke="#bc4c00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8M12 17v4"/></g></svg>
+<text x="59.5" y="28.5" font-size="15" letter-spacing="0.5" fill="#24292f">WEBSITE</text>
+</svg>
