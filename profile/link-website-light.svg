@@ -1,7 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="50" viewBox="0 0 300 50" font-family="ConsolasFix, Consolas, Menlo, 'DejaVu Sans Mono', monospace">
+<style>
+@font-face { font-family: 'ConsolasFix'; src: local('Consolas'); size-adjust: 109%; }
+text, tspan { white-space: pre; } .title { font-weight: bold; }
+.key, .title { fill: #bc4c00; color: #bc4c00; } .value { fill: #0550ae; color: #0550ae; } .dots { fill: #8c959f; } .fg { fill: #24292f; } .bg { fill: #ffffff; stroke: #d0d7de; }
+</style>
 <defs><clipPath id="r"><rect x="2" y="2" width="296" height="46" rx="6"/></clipPath></defs>
-<rect x="2" y="2" width="296" height="46" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
-<rect x="2" y="45" width="296" height="3" fill="#bc4c00" clip-path="url(#r)"/>
-<svg x="102.5" y="12.5" width="22" height="22" viewBox="0 0 24 24"><g fill="none" stroke="#bc4c00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8M12 17v4"/></g></svg>
-<text x="134.5" y="28.5" font-size="15" letter-spacing="0.5" fill="#24292f">WEBSITE</text>
+<rect class="bg" x="2" y="2" width="296" height="46" rx="6" stroke-width="1.5"/>
+<rect class="key" x="2" y="45" width="296" height="3" clip-path="url(#r)"/>
+<svg class="key" x="102.5" y="12.5" width="22" height="22" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8M12 17v4"/></g></svg>
+<text class="fg" x="134.5" y="28.5" font-size="15" letter-spacing="0.5">WEBSITE</text>
 </svg>

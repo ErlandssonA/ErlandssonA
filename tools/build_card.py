@@ -321,30 +321,57 @@ def panel(stats: dict[str, str], today: dt.date) -> list[str | None]:
     return rows
 
 
-STYLE = """<style>
+def style(theme: str) -> str:
+    """Colours as CSS classes. theme="auto" follows the viewer's system theme,
+    for the phone images: GitHub rewrites a <picture>'s color-scheme media
+    queries to match its own theme setting, which breaks combining them with a
+    width query, so the phone images pick their colours themselves."""
+
+    def rules(c: dict) -> str:
+        return (
+            f".key, .title {{ fill: {c['key']}; color: {c['key']}; }}"
+            f" .value {{ fill: {c['value']}; color: {c['value']}; }}"
+            f" .dots {{ fill: {c['dots']}; }} .fg {{ fill: {c['fg']}; }}"
+            f" .bg {{ fill: {c['bg']}; stroke: {c['border']}; }}"
+        )
+
+    if theme == "auto":
+        colours = (
+            f"{rules(THEMES['light'])} .art-dark {{ display: none; }}\n"
+            f"@media (prefers-color-scheme: dark) {{ {rules(THEMES['dark'])}"
+            " .art-light { display: none; } .art-dark { display: inline; } }"
+        )
+    else:
+        colours = rules(THEMES[theme])
+    return f"""<style>
 @font-face {{ font-family: 'ConsolasFix'; src: local('Consolas'); size-adjust: 109%; }}
-text, tspan {{ white-space: pre; }}
-.key, .title {{ fill: {key}; }} .title {{ font-weight: bold; }}
-.value {{ fill: {value}; }} .dots {{ fill: {dots}; }}
+text, tspan {{ white-space: pre; }} .title {{ font-weight: bold; }}
+{colours}
 </style>"""
+
+
 FONTS = 'font-family="ConsolasFix, Consolas, Menlo, \'DejaVu Sans Mono\', monospace"'
 
 
-def card(theme: str, art: list[str], rows: list[str | None], mobile: bool = False) -> str:
-    """Wide: art left, panel right. Mobile: art on top, panel below, so the
-    image is narrow and its text stays readable when a phone scales it down."""
-    c = THEMES[theme]
+def card(theme: str, arts: dict[str, list[str]], rows: list[str | None]) -> str:
+    """Desktop (dark/light): art left, panel right. Phone (auto): art on top,
+    panel below, so the image is narrow and its text stays readable when a
+    phone scales it down."""
+    mobile = theme == "auto"
     # Last row is a blinking prompt; discrete calcMode snaps like a cursor.
     cursor = (
         span("> ", "key") + '<tspan class="value">\u2588<animate attributeName="opacity" '
         'values="1;0" dur="1.06s" calcMode="discrete" repeatCount="indefinite"/></tspan>'
     )
     rows = [*rows, None, cursor]
+    shown = arts if mobile else {theme: arts[theme]}
+    art_cols = max(len(line) for art in shown.values() for line in art)
+    art_rows = max(len(art) for art in shown.values())
     art_w = ART_WIDTH_MOBILE if mobile else ART_WIDTH
-    art_font = art_w / (max(map(len, art)) * ADVANCE)
+    art_font = art_w / (art_cols * ADVANCE)
     art_line = art_font * ADVANCE * 2  # glyph cells are 1:2 (width:height)
     panel_w = COLS * FONT * ADVANCE
-    panel_h, art_h = len(rows) * LINE, len(art) * art_line
+    panel_h, art_h = len(rows) * LINE, art_rows * art_line
 
     if mobile:
         width = round(panel_w + 2 * MARGIN)
@@ -359,39 +386,43 @@ def card(theme: str, art: list[str], rows: list[str | None], mobile: bool = Fals
     # 0.8em puts the first baseline just under the block's top edge.
     art_y, panel_y = art_top + 0.8 * art_font, panel_top + 0.8 * FONT
 
-    art_lines = "\n".join(
-        f'<tspan x="{art_x:g}" y="{art_y + i * art_line:.1f}">{esc(line)}</tspan>'
-        for i, line in enumerate(art)
+    art_blocks = "\n".join(
+        f'<text class="fg art-{name}" font-size="{art_font:.2f}">'
+        + "".join(
+            f'<tspan x="{art_x:g}" y="{art_y + i * art_line:.1f}">{esc(line)}</tspan>'
+            for i, line in enumerate(art)
+        )
+        + "</text>"
+        for name, art in shown.items()
     )
     panel_lines = "\n".join(
         f'<tspan x="{panel_x:g}" y="{panel_y + i * LINE:g}">{row if row is not None else span(".", "dots")}</tspan>'
         for i, row in enumerate(rows)
     )
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" {FONTS}>
-{STYLE.format(**c)}
-<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" fill="{c['bg']}" stroke="{c['border']}"/>
-<text fill="{c['fg']}" font-size="{art_font:.2f}">
-{art_lines}
-</text>
-<text fill="{c['fg']}" font-size="{FONT}">
+{style(theme)}
+<rect class="bg" x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12"/>
+{art_blocks}
+<text class="fg" font-size="{FONT}">
 {panel_lines}
 </text>
 </svg>
 """
 
 
-def button(theme: str, name: str, label: str, colour: str, w: int = 300) -> str:
-    """w=150 for phones: same text size in half the width, so it scales less."""
-    c, h, size, icon = THEMES[theme], 50, 15, 22
-    accent = c[colour]
+def button(theme: str, name: str, label: str, colour: str) -> str:
+    """Phone (auto) buttons are half as wide with the same text size, so they
+    scale down less."""
+    w, h, size, icon = (150 if theme == "auto" else 300), 50, 15, 22
     text_w = len(label) * size * ADVANCE
     x = (w - icon - 10 - text_w) / 2  # centre icon + gap + label as one group
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" {FONTS}>
+{style(theme)}
 <defs><clipPath id="r"><rect x="2" y="2" width="{w - 4}" height="{h - 4}" rx="6"/></clipPath></defs>
-<rect x="2" y="2" width="{w - 4}" height="{h - 4}" rx="6" fill="{c['bg']}" stroke="{c['border']}" stroke-width="1.5"/>
-<rect x="2" y="{h - 5}" width="{w - 4}" height="3" fill="{accent}" clip-path="url(#r)"/>
-<svg x="{x:.1f}" y="{(h - icon) / 2 - 1.5:.1f}" width="{icon}" height="{icon}" viewBox="0 0 24 24">{ICONS[name].format(c=accent)}</svg>
-<text x="{x + icon + 10:.1f}" y="{h / 2 + 3.5:.1f}" font-size="{size}" letter-spacing="0.5" fill="{c['fg']}">{esc(label.upper())}</text>
+<rect class="bg" x="2" y="2" width="{w - 4}" height="{h - 4}" rx="6" stroke-width="1.5"/>
+<rect class="{colour}" x="2" y="{h - 5}" width="{w - 4}" height="3" clip-path="url(#r)"/>
+<svg class="{colour}" x="{x:.1f}" y="{(h - icon) / 2 - 1.5:.1f}" width="{icon}" height="{icon}" viewBox="0 0 24 24">{ICONS[name].format(c="currentColor")}</svg>
+<text class="fg" x="{x + icon + 10:.1f}" y="{h / 2 + 3.5:.1f}" font-size="{size}" letter-spacing="0.5">{esc(label.upper())}</text>
 </svg>
 """
 
@@ -403,18 +434,15 @@ def main() -> None:
     if TOKEN:
         write_calendar()
     rows = panel(stats, today)
+    arts = {theme: load_art(theme) for theme in THEMES}
     OUT.mkdir(exist_ok=True)
-    for theme in THEMES:
-        art = load_art(theme)
-        for suffix, mobile in (("", False), ("-mobile", True)):
-            (OUT / f"card-{theme}{suffix}.svg").write_text(
-                card(theme, art, rows, mobile), encoding="utf-8"
+    # card-dark.svg, card-light.svg for desktop; card-mobile.svg for phones.
+    for theme, suffix in (("dark", "dark"), ("light", "light"), ("auto", "mobile")):
+        (OUT / f"card-{suffix}.svg").write_text(card(theme, arts, rows), encoding="utf-8")
+        for name, label, colour in LINKS:
+            (OUT / f"link-{name}-{suffix}.svg").write_text(
+                button(theme, name, label, colour), encoding="utf-8"
             )
-            for name, label, colour in LINKS:
-                (OUT / f"link-{name}-{theme}{suffix}.svg").write_text(
-                    button(theme, name, label, colour, 150 if mobile else 300),
-                    encoding="utf-8",
-                )
     print(f"wrote {OUT}")
 
 
