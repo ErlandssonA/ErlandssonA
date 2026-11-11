@@ -415,12 +415,13 @@ def main() -> None:
         write_calendar()
     rows = panel(stats, today)
     OUT.mkdir(exist_ok=True)
-    # Phones always get the dark card: GitHub rewrites color-scheme media
-    # queries in a <picture> to its own theme setting, so they can't be
-    # combined with a width query, and SVGs that theme themselves render
-    # inconsistently in the GitHub app.
+    # The README shows these by theme with GitHub's #gh-dark-mode-only /
+    # #gh-light-mode-only link fragments (plain CSS), and by width with a
+    # <picture> max-width source. Color-scheme media queries are avoided: GitHub
+    # rewrites them on theme switches and phones then pick images at random.
     for suffix, theme, mobile in (
-        ("dark", "dark", False), ("light", "light", False), ("mobile", "dark", True),
+        ("dark", "dark", False), ("light", "light", False),
+        ("dark-mobile", "dark", True), ("light-mobile", "light", True),
     ):
         (OUT / f"card-{suffix}.svg").write_text(
             card(theme, load_art(theme), rows, mobile), encoding="utf-8"
