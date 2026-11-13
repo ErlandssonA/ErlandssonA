@@ -55,7 +55,7 @@ text, tspan { white-space: pre; } .title { font-weight: bold; }
 <text class="fg" font-size="16">
 <tspan x="444" y="32.8"><tspan class="title">anton@erlandsson</tspan> -------------------------------------------</tspan>
 <tspan x="444" y="52.8"><tspan class="dots">. </tspan><tspan class="key">OS</tspan>:<tspan class="dots"> .................... </tspan><tspan class="value">Ubuntu, Debian, Windows, Omarchy</tspan></tspan>
-<tspan x="444" y="72.8"><tspan class="dots">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dots"> ....................... </tspan><tspan class="value">8 years, 0 months, 9 days</tspan></tspan>
+<tspan x="444" y="72.8"><tspan class="dots">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="dots"> ...................... </tspan><tspan class="value">8 years, 0 months, 10 days</tspan></tspan>
 <tspan x="444" y="92.8"><tspan class="dots">. </tspan><tspan class="key">Host</tspan>:<tspan class="dots"> ............................................ </tspan><tspan class="value">Sweden</tspan></tspan>
 <tspan x="444" y="112.8"><tspan class="dots">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="dots"> ........................ </tspan><tspan class="value">Full Stack Web Developer</tspan></tspan>
 <tspan x="444" y="132.8"><tspan class="dots">. </tspan><tspan class="key">IDE</tspan>:<tspan class="dots"> ............................ </tspan><tspan class="value">VSCode, Cursor, T3 Code</tspan></tspan>
@@ -75,9 +75,9 @@ text, tspan { white-space: pre; } .title { font-weight: bold; }
 <tspan x="444" y="412.8"><tspan class="dots">.</tspan></tspan>
 <tspan x="444" y="432.8">- GitHub Stats ---------------------------------------------</tspan>
 <tspan x="444" y="452.8"><tspan class="dots">. </tspan><tspan class="key">Repos</tspan>:<tspan class="dots"> ................... </tspan><tspan class="value">60</tspan> | <tspan class="dots">. </tspan><tspan class="key">Contributed</tspan>:<tspan class="dots"> ...... </tspan><tspan class="value">64</tspan></tspan>
-<tspan x="444" y="472.8"><tspan class="dots">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dots"> .............. </tspan><tspan class="value">3,421</tspan> | <tspan class="dots">. </tspan><tspan class="key">PRs</tspan>:<tspan class="dots"> .............. </tspan><tspan class="value">84</tspan></tspan>
-<tspan x="444" y="492.8"><tspan class="dots">. </tspan><tspan class="key">Contributions</tspan>:<tspan class="dots"> ........ </tspan><tspan class="value">3,845</tspan> | <tspan class="dots">. </tspan><tspan class="key">Issues</tspan>:<tspan class="dots"> ........... </tspan><tspan class="value">74</tspan></tspan>
-<tspan x="444" y="512.8"><tspan class="dots">. </tspan><tspan class="key">Current</tspan>.<tspan class="key">Streak</tspan>:<tspan class="dots"> ................... </tspan><tspan class="value">33 days (Longest: 33)</tspan></tspan>
+<tspan x="444" y="472.8"><tspan class="dots">. </tspan><tspan class="key">Commits</tspan>:<tspan class="dots"> .............. </tspan><tspan class="value">3,426</tspan> | <tspan class="dots">. </tspan><tspan class="key">PRs</tspan>:<tspan class="dots"> .............. </tspan><tspan class="value">84</tspan></tspan>
+<tspan x="444" y="492.8"><tspan class="dots">. </tspan><tspan class="key">Contributions</tspan>:<tspan class="dots"> ........ </tspan><tspan class="value">3,850</tspan> | <tspan class="dots">. </tspan><tspan class="key">Issues</tspan>:<tspan class="dots"> ........... </tspan><tspan class="value">74</tspan></tspan>
+<tspan x="444" y="512.8"><tspan class="dots">. </tspan><tspan class="key">Current</tspan>.<tspan class="key">Streak</tspan>:<tspan class="dots"> ................... </tspan><tspan class="value">34 days (Longest: 34)</tspan></tspan>
 <tspan x="444" y="532.8"><tspan class="dots">.</tspan></tspan>
 <tspan x="444" y="552.8"><tspan class="key">&gt; </tspan><tspan class="value">█<animate attributeName="opacity" values="1;0" dur="1.06s" calcMode="discrete" repeatCount="indefinite"/></tspan></tspan>
 </text>
