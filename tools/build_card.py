@@ -4,6 +4,8 @@ import datetime as dt
 import html
 import json
 import os
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -116,8 +118,16 @@ def graphql(query: str, **variables) -> dict:
         data=json.dumps({"query": query, "variables": variables}).encode(),
         headers={"Authorization": f"bearer {TOKEN}"},
     )
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        payload = json.load(resp)
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                payload = json.load(resp)
+            break
+        except urllib.error.HTTPError as e:
+            # GitHub's GraphQL API returns sporadic 502s, retry those
+            if e.code < 500 or attempt == 2:
+                raise
+            time.sleep(10 * (attempt + 1))
     if "errors" in payload:
         raise SystemExit(f"GraphQL error: {payload['errors']}")
     return payload["data"]
